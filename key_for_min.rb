@@ -12,3 +12,9 @@ def key_for_min_value(name_hash)
     puts item
   end
 end
+ha = {
+  name: 'jason',
+  age: "23",
+  sex: "male"
+}
+key_for_min_value(ha)
