@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
    #   lowest_value = name_hash[:item]
    # end
     #return lowest_value[]
-    puts price
+    puts {item: price}
   end
 end
 ha = {
