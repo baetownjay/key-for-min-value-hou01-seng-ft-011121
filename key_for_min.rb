@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
     if name_hash[:key] < lowest_value
       lowest_value = name_hash[:key]
     end
+    return lowest_value[:key]
   end
-  return lowest_value[:key]
 end
