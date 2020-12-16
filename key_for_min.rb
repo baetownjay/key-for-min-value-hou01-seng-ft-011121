@@ -4,10 +4,11 @@
 
 def key_for_min_value(name_hash)
   lowest_value = 2000
-  name_hash.each do |key, value|
-    if name_hash[:key] < lowest_value
-      lowest_value = name_hash[:key]
-    end
-    return lowest_value[:key]
+  name_hash.each do |item, price|
+  #  if name_hash[:item] < lowest_value
+   #   lowest_value = name_hash[:item]
+   # end
+    #return lowest_value[]
+    puts item
   end
 end
